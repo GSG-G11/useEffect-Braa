@@ -29,6 +29,7 @@ export default function RandomUser() {
             {userInfo.name.first}
             {userInfo.phone}
           </div>
+          <button onClick={()=>setUserInfo('')}> Delete </button>
         </div>
       )}
     </div>
